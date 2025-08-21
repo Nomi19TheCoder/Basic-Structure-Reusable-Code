@@ -1,8 +1,9 @@
 /* =====================================
-   File: custom.css
+   File: component.css
    Purpose:
    - Defines component-based styles for the website.
    - Contains specific styles for sections such as hero, navbar, footer, cards, etc.
    - Follows structured naming conventions (like BEM).
    - Styles here are tied to particular UI components, not for general reuse.
 ===================================== */
+/* this will reset all root css */
