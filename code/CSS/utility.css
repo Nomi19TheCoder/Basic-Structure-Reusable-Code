@@ -1,0 +1,85 @@
+/* =====================================
+   File: utility.css
+   Purpose:
+   - Defines small, reusable, single-purpose helper classes.
+   - Utility classes handle spacing, alignment, text formatting, 
+     and display helpers.
+   - Classes are designed for quick use anywhere without 
+     creating new component-specific CSS.
+   - Promotes code reusability and avoids duplication.
+===================================== */
+/* spacing */
+/* margin */
+:root{
+  --border-color-primary:black;
+  --border-color-seconary:black;
+}
+.m-1{margin: 0;}
+.m-2{margin: 0.25rem;}
+.m-3{margin: 0.5rem;}
+.m-4{margin: 1rem;}
+/* margin bottom */
+.mb-1{margin: 0;}
+.mb-2{margin: 0.25rem;}
+.mb-3{margin: 0.5rem;}
+.mb-4{margin: 1rem;}
+/* margin top */
+.mt-1{margin: 0;}
+.mt-2{margin: 0.25rem;}
+.mt-3{margin: 0.5rem;}
+.mt-4{margin: 1rem;}
+/* margin right */
+.mr-1{margin: 0;}
+.mr-2{margin: 0.25rem;}
+.mr-3{margin: 0.5rem;}
+.mr-4{margin: 1rem;}
+/* margin left */
+.ml-1{margin: 0;}
+.ml-2{margin: 0.25rem;}
+.ml-3{margin: 0.5rem;}
+.ml-4{margin: 1rem;}
+/* padding */
+.m-1{padding: 0;}
+.m-2{padding: 0.25rem;}
+.m-3{padding: 0.5rem;}
+.m-4{padding: 1rem;}
+/* padding bottom */
+.mb-1{padding: 0;}
+.mb-2{padding: 0.25rem;}
+.mb-3{padding: 0.5rem;}
+.mb-4{padding: 1rem;}
+/* padding top */
+.mt-1{padding: 0;}
+.mt-2{padding: 0.25rem;}
+.mt-3{padding: 0.5rem;}
+.mt-4{padding: 1rem;}
+/* padding right */
+.mr-1{padding: 0;}
+.mr-2{padding: 0.25rem;}
+.mr-3{padding: 0.5rem;}
+.mr-4{padding: 1rem;}
+/* padding left */
+.ml-1{padding: 0;}
+.ml-2{padding: 0.25rem;}
+.ml-3{padding: 0.5rem;}
+.ml-4{padding: 1rem;}
+/* display */
+.d-flex{display: flex;}
+.d-grid{display: grid;}
+/* flex box */
+.flex-row{flex-direction: row;}
+.flex-cocolumn{flex-direction:column;}
+.justify-content-start{justify-content: start;}
+.justify-content-center{justify-content: center;}
+.justify-content-end{justify-content: end;}
+.justify-content-space-between{justify-content: space-between;}
+.justify-content-space-around{justify-content: space-around;}
+.align-items-start{align-items: start;}
+.align-items-center{align-items: center;}
+.align-items-end{align-items: end;}
+/* border */
+.border-1{border: 1px solid var(--border-color-primary);}
+.border-2{border: 2px solid var(--border-color-primary);}
+/* boirder radius */
+.rounded-1{border-radius: 0.25rem;}
+.rounded-2{border-radius: 0.5rem;}

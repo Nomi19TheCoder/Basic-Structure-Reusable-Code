@@ -1,0 +1,13 @@
+/* this is root css */
+/* this will reset all root css */
+/* =====================================
+   File: reset.css
+   Purpose:
+   - Reset all css properties.
+===================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
