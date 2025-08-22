@@ -6,14 +6,35 @@
    - Follows structured naming conventions (like BEM).
    - Styles here are tied to particular UI components, not for general reuse.
 ===================================== */
-.container{
+/* containers */
+.container-row{
    min-width: 90%;
    margin: auto;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
 }
-.navbar-list {
+.container-colm{
+   min-width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+/* top nav bar */
+.top-x-navbar{
+   min-width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+}
+.top-y-navbar{
+   min-width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+}
+.navbar-links {
    margin-left: 1rem;
    padding: 1rem;
    text-align: center;
