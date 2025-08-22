@@ -6,4 +6,17 @@
    - Follows structured naming conventions (like BEM).
    - Styles here are tied to particular UI components, not for general reuse.
 ===================================== */
-/* this will reset all root css */
+.container{
+   min-width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.navbar-list {
+   margin-left: 1rem;
+   padding: 1rem;
+   text-align: center;
+   align-content: center;
+   transition: all ease-in-out 0.15s;
+}
