@@ -4,4 +4,13 @@
    - Defines the main changes of the overall theme like font family, color,
     background.
 ===================================== */
-
+.cards{
+    border: none;
+    border-radius: 5%;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background: #f2f2f2;
+}
