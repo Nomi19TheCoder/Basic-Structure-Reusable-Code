@@ -4,6 +4,8 @@
    - Defines the main changes of the overall theme like font family, color,
     background.
 ===================================== */
+
+/* ====cards==== */
 .cards{
     border: none;
     border-radius: 5%;
